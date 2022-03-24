@@ -18,10 +18,7 @@ OUTPUT:
 ]*/
 
 export function getDogs(arr) {
-    arr.filter(dog => dog.type === 'dog');
-
-
-    return [];
+    return arr.filter(dog => dog.type === 'dog');
 }
 
 /*
@@ -31,7 +28,7 @@ Output:
 */
 
 export function makeArrayOfNames(arr) {
-    return [];
+    return arr.map(arr => arr.name);
 }
 
 /*
@@ -40,7 +37,8 @@ OUTPUT:
 */
 
 export function getNamesOfDogs(arr) {
-    return [];
+    let temp = arr.filter(dog => dog.type === 'dog');
+    return temp.map(temp => temp.name);
 }
 
 /*
