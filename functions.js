@@ -18,6 +18,9 @@ OUTPUT:
 ]*/
 
 export function getDogs(arr) {
+    arr.filter(dog => dog.type === 'dog');
+
+
     return [];
 }
 
