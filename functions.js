@@ -48,7 +48,9 @@ Output:
 */
 
 export function makeReversedArrayOfTypes(arr) {
-    return [];
+    //let temp = arr.filter(arr => arr.type);
+    let temp2 = arr.map(arr => arr.type);
+    return temp2.reverse();
 }
 
 /*
