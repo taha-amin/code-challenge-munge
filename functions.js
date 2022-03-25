@@ -71,7 +71,7 @@ export function makeSpanishLanguageArray(arr) {
             nombre:item.name,
             tipo:item.type });
     });
-    
+
     return temp;
 }
 
@@ -86,6 +86,7 @@ Output:
 ]*/
 
 export function makeArrayWithIsHungry(arr) {
+
     return [];
 }
 
@@ -179,7 +180,7 @@ Output:
 */
 
 export function getCars(arr) {
-    return [];
+    return arr.filter(car => car.type === 'car');
 }
 
 /*
