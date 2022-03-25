@@ -65,7 +65,14 @@ Output:
 */
 
 export function makeSpanishLanguageArray(arr) {
-    return [];
+    let temp = [];
+    arr.forEach(item => {
+        temp.push({
+            nombre:item.name,
+            tipo:item.type });
+    });
+    
+    return temp;
 }
 
 /*
@@ -79,7 +86,7 @@ Output:
 ]*/
 
 export function makeArrayWithIsHungry(arr) {
-     return []
+    return [];
 }
 
 /*
